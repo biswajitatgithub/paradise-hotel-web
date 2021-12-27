@@ -40,5 +40,65 @@
 
             }
         }
+        
+    }
+    .banner-container{
+        //background-image:url('https://www.lux-review.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2019/09/turkish-hotel-1024x576.jpg.webp');
+        height: calc(100vh - 3rem);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(2,0,36);
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,41,121,1) 54%, rgba(0,212,255,1) 100%);
+        
+        &-text{
+            font-family: monospace;
+            font-size: 5rem;
+            font-weight: 700;
+            color: white;
+            padding-bottom: 1rem;
+        }
+        &-subtext{
+            font-size: 2rem;
+            font-family: sans-serif;
+            letter-spacing: .5rem;
+            color: #ccc;
+        }
+
+    }
+    .section-header-container{
+        display: flex;
+        flex-direction: column;
+        .section-header{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            p{
+                font-size: 1.8rem;
+            }
+            .section-header-text{
+                margin: 0 1rem;
+            }
+            :first-child,:last-child{
+                position: relative;
+                bottom: .2rem;
+            }
+        }
+    }
+    .services-container{
+        display: flex;
+        justify-content: space-around;
+        .services-items{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 }
