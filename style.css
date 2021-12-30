@@ -193,11 +193,11 @@
   border: none;
   border-radius: 2px;
   background: radial-gradient(circle, #020024 0%, #092979 54%, #00d4ff 100%);
-  -webkit-box-shadow: 2px 2px 5px black;
-          box-shadow: 2px 2px 5px black;
 }
 
 .container .services-container .services-items .services-button:hover {
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
   cursor: pointer;
 }
 
@@ -248,8 +248,12 @@
   color: white;
   border: none;
   border-radius: 2px;
+}
+
+.container .contact-container .contact-forms form input[type="button"]:hover {
   -webkit-box-shadow: 2px 2px 5px black;
           box-shadow: 2px 2px 5px black;
+  cursor: pointer;
 }
 
 .container .footer-container {
@@ -264,7 +268,7 @@
 }
 
 .container .footer-container .footer-socialmedia, .container .footer-container a, .container .footer-container p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: white;
 }
 

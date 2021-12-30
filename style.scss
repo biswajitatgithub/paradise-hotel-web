@@ -121,8 +121,8 @@
                 border: none;
                 border-radius: 2px;
                 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,41,121,1) 54%, rgba(0,212,255,1) 100%);
-                box-shadow: 2px 2px 5px black;
                 &:hover{
+                    box-shadow: 2px 2px 5px black;
                     cursor: pointer;
                 }
             }
@@ -154,7 +154,10 @@
                     color: white;
                     border: none;
                     border-radius: 2px;
-                    box-shadow: 2px 2px 5px black;
+                    &:hover{
+                        box-shadow: 2px 2px 5px black;
+                        cursor: pointer;
+                    }
                 }
             }
         }
@@ -165,7 +168,7 @@
         background-color: black;
         padding: 1rem 1rem;
         .footer-socialmedia,a,p{
-            font-size: 1.4rem;
+            font-size: 1rem;
             color: white;
         }
         a{
